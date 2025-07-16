@@ -12,9 +12,8 @@ plugins {
     id("org.openrewrite.build.recipe-repositories") version "latest.release"
 }
 
-// Set as appropriate for your organization
-group = "com.yourorg"
-description = "Rewrite recipes."
+group = "co.uk.rewrite.recipe.avijit"
+description = "Rewrite recipes for Java21"
 
 dependencies {
     // The bom version can also be set to a specific version
@@ -53,10 +52,6 @@ dependencies {
     testRuntimeOnly("org.springframework:spring-context:latest.release")
 }
 
-signing {
-    // To enable signing have your CI workflow set the "signingKey" and "signingPassword" Gradle project properties
-    isRequired = false
-}
 
 // Use maven-style "SNAPSHOT" versioning for non-release builds
 configure<nebula.plugin.release.git.base.ReleasePluginExtension> {
