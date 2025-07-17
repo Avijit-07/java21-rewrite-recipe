@@ -97,11 +97,6 @@ These other docs might also be useful for you depending on where you want to pub
 * Sonatype's instructions for [publishing to Maven Central](https://maven.apache.org/repository/guide-central-repository-upload.html)
 * Gradle's instructions on the [Gradle Publishing Plugin](https://docs.gradle.org/current/userguide/publishing\_maven.html).
 
-### From Github Actions
-
-The `.github` directory contains a Github action that will push a snapshot on every successful build.
-
-Run the release action to publish a release version of a recipe.
 
 ### From the command line
 
