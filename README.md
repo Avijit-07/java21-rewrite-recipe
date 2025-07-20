@@ -75,7 +75,7 @@ dependencies {
 }
 
 rewrite {
-    activeRecipe("com.yourorg.NoGuavaListsNewArrayList")
+    activeRecipe("co.uk.rewrite.recipe.avijit.NoGuavaListsNewArrayList")
 }
 ```
 

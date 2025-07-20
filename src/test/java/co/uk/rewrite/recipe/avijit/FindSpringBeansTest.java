@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.yourorg;
+package co.uk.rewrite.recipe.avijit;
 
-import com.yourorg.table.SpringBeansReport;
+import co.uk.rewrite.recipe.avijit.table.SpringBeansReport;
 import org.junit.jupiter.api.Test;
 import org.openrewrite.DocumentExample;
 import org.openrewrite.PathUtils;
