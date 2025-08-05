@@ -11,11 +11,4 @@ rootProject {
     dependencies {
         rewrite("org.openrewrite.recipe:rewrite-rewrite:latest.release")
     }
-    afterEvaluate {
-        if (repositories.isEmpty()) {
-            repositories {
-                mavenCentral()
-            }
-        }
-    }
 }
